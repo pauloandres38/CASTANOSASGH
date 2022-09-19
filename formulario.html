@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Gestion de Usuarios</title>
+    <link rel="stylesheet" href="/CSS/estilosA.css">
+    <link rel="stylesheet" href="/CSS/estilosForm.css">
+</head>
+<body>
+<h1>Formulario Gestion de Usuarios</h1>
+    <a href="index.html">Ir a home</a>
+    <form> <!--Todo el contenido debe ir en la etiqueta form-->
+        <!--Imput etiqueta q permine ingresar informacion-->
+        <label for="inputNombre">Nombres</label>
+        <input type="text" id="inputNombre" name="inputNombre" placeholder="Nombres">
+        <br>
+        <label for="inputApellidos">Apellidos</label>
+        <input type="text" id="inputApellidos" name="inputApellidos" placeholder="Apellidos">
+        <br>
+        <label for="inputDocumento">Documento</label>
+        <input type="text" id="inputDocumento" name="inputDocumento" placeholder="Documento">
+        <br>
+
+<!--Imput Perfil - Superandministrador - Administrador - Empleado - Dropdown list-->
+<label>Rol:</label>
+        <input type="radio" name="radioPerfil" id="radioSuperAdmin" value="SuperAdmin">
+        <label for="radioSuperAdmin">Super Administrador</label>
+        <input type="radio" name="radioPerfil" id="radioAdmin" value="Admin">
+        <label for="radioAdmin">Administrador</label>
+        <input type="radio" name="radioPerfil" id="radioEmpleado" value="Empleado">
+        <label for="radioEmpleado">Empleado</label>
+        <br>
+
+        <label>Selecciona tu rol:
+                <input list="roles" name="listaRol" /></label>
+                <datalist id="roles">
+                  <option value="Super Administrador">
+                  <option value="Administrador">
+                  <option value="Empleado">
+                        
+                </datalist>
+
+
+<!--e-mail-->
+<br>
+        <label for="inputEmail">Correo electronico</label>
+        <input type="email" id="inputEmail" name="inputEmail" required autocomplete="on">
+        <br>
+<!--Imput Tipo de contrato list-->
+<label>Tipo de Contrato:</label>
+        <input type="radio" name="radioContrato" id="radioLaboral1" value="Laboral1">
+        <label for="radioLaboral1">Laboral1</label>
+        <input type="radio" name="radioContrato" id="radioLaboral2" value="Laboral2">
+        <label for="radioLaboral2">Laboral2</label>
+        <input type="radio" name="radioContrato" id="radioLaboral3" value="Laboral3">
+        <label for="radioLaboral3">Laboral3</label>
+        <br>
+        <br>
+        <!--Imput  telefono-->
+        <label for="inputTelefono">Telefono: formato(+xx-xxx-xxx-xxxx)</label>
+        <input type="tel" name="inputTelefono" id="inputTelefono" placeholder="+xx-xxx-xxx-xxxx"
+        pattern="[+][0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}" title="formato +xx-xxx-xxx-xxxx">
+        <br>
+        <!--Imput fecha inicio-->
+        <label for="inputFI">Fecha de Inicio</label>
+        <input type="date" id="inputFI" name="inputFI" min="1980-01-01" max="2000-12-31">
+        <br>
+        <br>
+        <!--Imput fecha inicio-->
+        <label for="inputFF">Fecha de Finalizacion</label>
+        <input type="date" id="inputFF" name="inputFF" min="1980-01-01" max="2000-12-31">
+        <br>
+<!--Imput Tipo de contrato list-->
+<label>Trabaja Actualmente:</label>
+        <input type="radio" name="radioActualmente" id="radioActualmente" value="">
+        <label for="radioActualmente"></label>
+        <br>
+
+        <br>
+        <!--Imput file-->   
+        <!--Label id="inputFoto" El label debe ir relacionado con el id=--> 
+        <!--radio name="inputFoto"  El name debe ser el mismo para los radios exclusivos-->   
+        <label for="inputFoto">Foto:</label>
+        <input type="file" id="inputFoto" name="inputFoto">
+        <br>
+
+
+        <label for="inputpass">Contraseña</label>
+        <input type="password" name="inputpass" id="inputpass">
+        <!--Imput password-->
+      <br>
+        <!--Imput submit q permine ingresar informacion-->
+        <input type="submit" value="Registrar" id="Registrar">
+
+
+
+        <label>Selecciona tu rol:
+                <input list="roles" name="listaRol" /></label>
+                <datalist id="roles">
+                  <option value="SuperAdministrador">
+                  <option value="Administrador">
+                  <option value="Empleado">
+                        
+                </datalist>
+        
+    </form>
+</body>
+</html>

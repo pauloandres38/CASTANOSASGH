@@ -1,0 +1,21 @@
+table{
+    background-color: wheat;
+    
+    border: 10px solid;
+    border-width: 3px;
+    border-color: bisque;
+    border-style: solid;
+
+    
+    padding: 105px;
+    color: chartreuse;
+}
+
+tr:hover{
+
+    background-color: royalblue;
+    padding: 10px;
+    
+
+
+}

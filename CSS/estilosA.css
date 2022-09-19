@@ -1,0 +1,154 @@
+a:hover{
+background-color: gold;
+
+}
+
+a:visited{
+    color: brown;
+
+}
+
+a:link{
+
+    color: antiquewhite ;
+}
+
+
+h1.titulo{
+    position: absolute;
+width: 428px;
+height: 336px;
+left: 545px;
+top: 112px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    color: #FFEA00;
+    display: inline;
+}
+
+a.logotitulo{
+    position: absolute;
+    width: 428px;
+    height: 336px;
+    left: 545px;
+    top: 112px;
+}
+
+h3.software{
+    position: absolute;
+    width: 340px;
+    height: 60px;
+    left: 589px;
+    top: 508px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    text-align: center;
+    letter-spacing: 0.15px;
+    
+    /* Neutral / Grey 800 */
+    
+    color: #323F4B;
+
+}
+
+h3.desarrolla{
+    position: absolute;
+    width: 340px;
+    height: 54px;
+    left: 589px;
+    top: 584px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    
+    text-align: center;
+    letter-spacing: 0.15px;
+    
+    /* Neutral / Grey 800 */
+    
+    color: #323F4B;
+
+}
+
+
+.botonUsuario{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 437px;
+    height: 52px;
+    left: 537px;
+    top: 680px;
+    
+    /* Primary / Primary 500 */
+    
+    background: #2F80ED;
+    /* Neutral / Grey 800 */
+    
+    border: 0.5px solid #323F4B;
+    border-radius: 50px;
+
+}
+
+.botonContraseña{
+
+
+    box-sizing: border-box;
+
+position: absolute;
+width: 437px;
+height: 52px;
+left: 537px;
+top: 782px;
+
+/* Primary / Primary 500 */
+
+background: #2F80ED;
+/* Neutral / Grey 800 */
+
+border: 0.5px solid #323F4B;
+border-radius: 50px;
+}
+
+.botonOlvidar{
+    position: absolute;
+    width: 421px;
+    height: 36px;
+    left: 561px;
+    top: 858px;
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    
+    text-align: center;
+    letter-spacing: 0.15px;
+    background-color: #E7F1FF;
+    color: #000000;
+
+}
+
+img.logotitulo{
+    position: absolute;
+    width: 428px;
+    height: 336px;
+    left: 545px;
+    top: 112px;
+    
+    
+
+}

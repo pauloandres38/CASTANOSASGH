@@ -1,0 +1,27 @@
+h1{
+color: blue;
+text-align: center;
+background-color: lightcoral;
+
+}
+
+form{
+    width: 450px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 12px;
+    background-color: lightgreen;
+}
+
+form input{
+    padding: 5px;
+    border: 2px solid #f5f5f5;
+    border-radius: 3px;
+    margin: 8px;
+}
+
+#btRegistrar{
+    text-align: center;
+    font-weight: bold;
+    
+}

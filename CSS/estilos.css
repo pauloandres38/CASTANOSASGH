@@ -1,0 +1,40 @@
+/* Este es un comentario en CSS/*
+/* ctrl + } */
+
+h1{
+color: blue; 
+text-decoration:overline underline;
+text-decoration-color: blueviolet ;
+letter-spacing: 10px;
+}
+
+
+#h1listaDesFrutas{
+
+    color: blueviolet;
+    text-align: center;
+
+}
+
+
+li,dd,dt{
+color: brown;
+text-transform: lowercase;
+
+}
+
+ul{
+    list-style-type: circle;
+    padding-left: 30px;
+}
+/* seleccionar por id se hace con # */
+
+
+/* seleccionar por class se hace con . punto */
+
+.elementoPapaya{    
+    background-color: greenyellow;
+    text-transform: uppercase;
+    font-family: 'Sofia', 'sans-serif';
+    padding:5px;
+}
