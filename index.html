@@ -7,18 +7,22 @@
     <meta charset="UTF-8"> <!--Codificacion de caracteres-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">  
     <link rel="icon" type="image/x-icon" href="/imagenes/icono.ico">
     <link rel="stylesheet" href="/CSS/estilosA.css">
     <title>Ejemplo</title>
     <style>
-
-        body{
+        .container {
+            width: 100%;
+            height: 100vh;
             background-color: #E7F1FF;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+              
         }
-        td{
-            font-family: cursive;
-            font-size: x-large;
-        }
+        
+
 
     </style>
 
@@ -31,34 +35,67 @@
 
     <!-- el body continene los elementos visibles de la pagina web:
     encabezados, parrafos, imagenes, videos, tablas, listas, formularios -->
-<body>
-<!-- encabezados desde h1 hasta h6 -->
-<a class="logotitulo" href="/index.html">
-    <img class="logotitulo" src="/imagenes/castanologo.png" alt="home">
-</a>
-
-<h3 class="software">Software de gestion de Empleados</h3>
-
-<h3 class="desarrolla">  Desarrolla su talento y reduce el riesgo de su salida</h3>
 
 
-<br>
-<a href="formulario.html">ir a formulario de gestion de usuarios</a>
-<br>
-<a href="formulario2.html">ir a formulario de gestion de empleados</a>
-<br>
 
-<br>
-        <!--Imput submit q permine ingresar informacion-->
-        <input class="botonUsuario" type="submit" value="Usuario" id="Usuario">
+<body  class="container">
+    
+
+    <div class="container">
+
+        <div class="container">
+        <a class="logotitulo" href="/index.html">
+        <img class="logotitulo" src="/imagenes/castanologo.png" alt="home">
+        </a>
+        </div>
         
-<br>
-<!--Imput submit q permine ingresar informacion-->
-<input class="botonContraseña" type="submit" value="Contraseña" id="Contraseña">
+        <div class="container">
+        <h3 class="software">Software de gestion de Empleados</h3>
+        </div>
 
-<br>
-<!--Imput submit q permine ingresar informacion-->
-<input class="botonOlvidar" type="submit" value="Olvidaste tu contraseña?" id="Olvidar">
+        <div class="container">
+        <h3 class="desarrolla">  Desarrolla su talento y reduce el riesgo de su salida</h3>
+        </div>
+
+        <div class="container">
+        
+        <!--Imput submit q permine ingresar informacion-->
+        <input class="botonUsuario" type="text" value="   usuario@email.com" id="Usuario">
+       
+        </div>
+
+        <div class="container">
+        <input class="botonContraseña" type="text" value="   contraseña" id="Contraseña">
+        
+        </div>
+
+        <div class="container">
+            <button class="botonIniciarSesion" type="submit" value="IniciarSesion" id="IniciarSesion">Iniciar Sesion</button>
+            
+        </div>
+        
+        <div class="container">
+            <input class="botonCrearCuenta" type="submit" value="Crear Cuenta" id="CrearCuenta">
+            </div>
+
+        <div class="container">
+        <input class="botonOlvidar" type="submit" value="Olvidaste tu contraseña?" id="Olvidar">
+        </div>
+
+   
+    
+<!--
+        <div class="container">
+        <a href="formulario.html" id="GestionUsuarios">ir a formulario de gestion de usuarios</a>
+        </div>
+
+        <div class="container">
+        <a href="formulario2.html" id="GestionEmpleados">ir a formulario de gestion de empleados</a>
+        </div>
+-->
+
+    </div>
+
 
 
 <pre>
