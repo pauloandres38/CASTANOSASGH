@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+    <title>Gestion de Usuarios</title>
+    <link rel="stylesheet" href="/CSS/estilosFormGU.css">
+    <style>
+        .container {
+            width: 100%;
+            height: 100vh;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container2 {
+            width: 50%;
+            height: 10vh;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .container3 {       
+            background: #FFFFFF;    
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .container4 {       
+            background: #FFFFFF;    
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: normal;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .container5 {       
+            background: #FFFFFF;    
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: right;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+       
+
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="container3">
+        <div>
+           <h1 class="container3" id="GestionUsuarios">Gestion de Usuarios</h1>
+        </div>
+        <div>
+            <a  class="container3" class="logotitulo" href="/index.html">
+            <img   class="logotitulo" src="/imagenes/castanologo.png" alt="home">    
+            </a>
+        </div>
+    </div>
+
+<div class="container2">
+
+    <div class="container3">
+        <button class="botonAgregarUsuario" type="submit" value="AgregarUsuario" id="AgregarUsuario">Agregar Usuario+</button>
+    </div>
+    
+    <div class="container3">
+        <button class="botonDesactivarUsuario" type="submit" value="DesactivarUsuario" id="DesactivarUsuario">Desactivar Usuario-</button>
+    </div>
+
+    <div class="container3">
+        <button class="botonBuscarUsuario" type="submit" value="BuscarUsuario" id="BuscarUsuario">Buscar Usuario</button>
+    </div>
+
+
+</div>
+
+    <form>
+
+        <div class="container4">
+            <label for="inputNombre">Nombres</label>
+            <label for="inputApellidos">Apellidos</label>
+        </div>
+        <div class="container4">
+            <input type="text" id="inputNombre" name="inputNombre" placeholder="Nombres">
+            <input type="text" id="inputApellidos" name="inputApellidos" placeholder="Apellidos">
+        </div>
+        <div class="container4">
+            <label for="inputDocumento">Documento</label>
+            <label>Perfil</label>
+        </div>
+        <div class="container4">
+            <input type="text" id="inputDocumento" name="inputDocumento" placeholder="Documento">
+            <input list="roles" name="listaRol"  placeholder="Perfil"/></label>
+                <datalist id="roles">
+                  <option value="Super Administrador">
+                  <option value="Administrador">
+                  <option value="Empleado">
+                </datalist>    
+        </div>
+        <div class="container4">
+            <label for="inputEmail">Correo electronico</label>
+            <label>Tipo de Contrato</label>
+        </div>
+
+        <div>
+            <input type="email" id="inputEmail" name="inputEmail" required autocomplete="on"  placeholder="usuario@email.com">
+            <input list="contratos" name="listaContrato"  placeholder="Tipo de Contrato"/></label>
+                <datalist id="contratos">
+                  <option value="Contrato Tipo A">
+                  <option value="Contrato Tipo B">
+                  <option value="Contrato Tipo C">
+                </datalist> 
+        </div>
+
+        <div class="container4">
+            <label for="inputTelefono">Telefono: formato(+xx-xxx-xxx-xxxx)</label>
+        </div>
+
+        <div>
+            <input type="tel" name="inputTelefono" id="inputTelefono" placeholder="+xx-xxx-xxx-xxxx"
+            pattern="[+][0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}" title="formato +xx-xxx-xxx-xxxx">
+        </div>
+
+        <div class="container4">
+            <label for="inputFI">Fecha de Inicio</label>
+            <label for="inputFF">Fecha de Finalizacion</label>
+        </div>
+
+        <div>
+         
+        <input class="date" type="date" id="inputFI" name="inputFI" min="1980-01-01" max="2000-12-31">
+        <input class="date"  type="date" id="inputFF" name="inputFF" min="1980-01-01" max="2000-12-31">
+        </div>
+
+
+    </form>
+    <br>
+    <br>
+    <br>
+
+    <div class="container5">
+
+        <div class="container5">
+            <button class="botonContinuar" type="submit" value="Continuar" id="Continuar">Continuar</button>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+</div>
+
+</body>
+</html>
