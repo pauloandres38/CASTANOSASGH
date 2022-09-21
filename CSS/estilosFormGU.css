@@ -105,14 +105,14 @@ color: rgba(50, 63, 75, 0.77);}
 
 
 label{
-    width: 600px;
+    width: 40%;
     height: 18px;
     left: 400px;
     right: 00px;
     top: 0px;
     bottom: 0px;
     margin-left: 60px;
-    margin-top: 40px;
+    margin-top: 30px;
     
     /* Label / ExtraBold */
     
@@ -131,19 +131,19 @@ label{
     color: #323F4B;
     }
 
-    input{width: 600px;
-        height: 68px;
+    input{width: 40%;
+        height: 45px;
         left: 00px;
         right: 0px;
         top: 0px;
         bottom: 0px;
         margin-left: 60px;
         background: #FFFFFF;
+        margin-top: 5px;
         /* Neutral / Grey 400 */
         
         border: 0.5px solid #7B8794;
         border-radius: 8px
-
     }
 
 ::placeholder{font-family: 'Mulish';
@@ -171,8 +171,8 @@ datalist{font-family: 'Mulish';
         color: #2F80ED;}
 
 input.date{
-    width: 600px;
-        height: 68px;
+    width: 40%;
+        height: 45px;
         left: 00px;
         right: 0px;
         top: 0px;
@@ -183,6 +183,7 @@ input.date{
         
         border: 0.5px solid #7B8794;
         border-radius: 8px;
+        position: center;
 
 /* Body / SemiBold */
 
@@ -205,3 +206,16 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
+
+.radio{
+    
+    left: 100%;
+    top: 10px;
+    box-sizing: border-box;
+
+      
+        
+    background: #D5E6FB;
+        
+    border: 0.5px solid #323F4B;
+    border-radius: 16px;}
