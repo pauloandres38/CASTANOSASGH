@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    
+  margin: 100;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+.wrapper .menu-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+    
+    width: 236px;
+    height: 544px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+  }
+
+ 
+.wrapper #sidebar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 26px 26px 26px;
+    gap: 10px;
+    
+    position: relative;
+    width: 342px;
+    height: 920px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    background: #2F80ED;
+    border-radius: 26px 0px 0px 27px;
+  }
+  
+
+
+  #sidebar .title{
+    line-height: 65px;
+    text-align: center;
+    background:  #2F80ED;
+    font-size: 25px;
+    font-weight: 600;
+    color: #f2f2f2;
+    border-bottom: 1px solid #2F80ED;
+  }
+
+  #sidebar .list-items{
+    position: relative;
+    background:  #2F80ED;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+  }
+
+  #sidebar .list-items li{
+    padding-left: 40px;
+    line-height: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    width: 236px;
+    height: 48px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+
+    border-top: 1px solid  #2F80ED;
+    border-bottom: 1px solid  #2F80ED;
+    transition: all 0.3s ease;
+ 
+}
+
+  #sidebar .list-items li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  #sidebar .list-items li a i{
+    margin-right: 20px;
+  }
+  #sidebar .list-items .icons{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+    flex-direction: row;
+    padding: 4px 16px 4px 8px;
+    gap: 8px;
+
+    width: 221px;
+    height: 58px;
+
+/* $bg-color */
+
+    background: #FFFFFF;
+/* Button/01 */
+
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.25), inset 0px -1px 1px rgba(0, 0, 0, 0.04), inset 0px 2px 0px rgba(255, 255, 255, 0.25);
+    border-radius: 7px;
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+
+
+  button.botonBuscarUsuario {
+    box-sizing: border-box;
+
+width: 270px;
+height: 52px;
+left: 1090px;
+top: 154px;
+
+/* Neutral / Grey 800 */
+
+border: 0.5px solid #323F4B;
+border-radius: 100px;
+    
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+background: #FFFFFF;
+color: rgba(50, 63, 75, 0.77);}
+
+
+
+  a.logotitulo{
+    width: 161px;
+    height: 122px;
+}
+
+img.logotitulo{
+    position: fixed;
+    width: 410px;
+height: 336px;
+left: 682px;
+top: 292px;
+}
